@@ -1,4 +1,6 @@
 const express = require('express');
+require('dotenv').config();
+
 const filmsRouter = require('./routes/films.routes');
 const genresRouter = require('./routes/genres.routes');
 
